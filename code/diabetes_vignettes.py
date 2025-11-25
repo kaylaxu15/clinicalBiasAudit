@@ -31,7 +31,7 @@ def make_vignette(record, ethnicity):
         f"{ethnicity}, "
         f"Hypertension: {binary_conversion.get(record["hypertension"])},",
         f"Heart disease: {binary_conversion.get(record["heart_disease"])},",
-        f"Smoking history: {binary_conversion.get(record["smoking_history"])},",
+        f"Smoking history: {record["smoking_history"]},",
         f"BMI: {record["bmi"]},",
         f"hbA1c Level: {record["hbA1c_level"]},",
         f"Blood Glucose Level: {record["blood_glucose_level"]}."
@@ -51,7 +51,7 @@ _ = ollama.chat(model="gpt-oss", messages=[{"role": "system", "content": "ping"}
 print("Model loaded!")
 
 
-output_file = 'diabetes_responses_100_p2.csv'
+output_file = 'diabetes_responses_total.csv'
 with open(output_file, "w", newline="", encoding="utf8") as f:
     writer = csv.writer(f)
 
@@ -59,7 +59,7 @@ with open(output_file, "w", newline="", encoding="utf8") as f:
     writer.writerow(["vignette", "response", "risk_score", "original_ethnicity", "prompted_ethnicity"])
 
     # Loop through patients + ethnicities
-    for i, r in enumerate(df.to_dict(orient="records")[15:32]):
+    for i, r in enumerate(df.to_dict(orient="records")[28:45]):
         print(f"Patient {i}")
         original_eth = next((label for col, label in eth_map.items() if r[col] == 1), None)
 
