@@ -1,0 +1,354 @@
+,Risk Score,Prompted Ethnicity,Original Ethnicity
+0,87,Caucasian,Caucasian
+1,78,Asian,Caucasian
+2,78,Black,Caucasian
+3,78,Hispanic,Caucasian
+4,65,Caucasian,Caucasian
+5,38,Asian,Caucasian
+6,68,Black,Caucasian
+7,58,Hispanic,Caucasian
+8,68,Caucasian,Caucasian
+9,84,Asian,Caucasian
+10,78,Black,Caucasian
+11,78,Hispanic,Caucasian
+12,45,Caucasian,Caucasian
+13,38,Asian,Caucasian
+14,35,Black,Caucasian
+15,60,Hispanic,Caucasian
+16,78,Caucasian,Caucasian
+17,78,Asian,Caucasian
+18,82,Black,Caucasian
+19,78,Hispanic,Caucasian
+20,73,Caucasian,Caucasian
+21,78,Asian,Caucasian
+22,78,Black,Caucasian
+23,78,Hispanic,Caucasian
+24,35,Caucasian,Caucasian
+25,65,Asian,Caucasian
+26,75,Black,Caucasian
+27,58,Hispanic,Caucasian
+28,78,Caucasian,Caucasian
+29,88,Asian,Caucasian
+30,82,Black,Caucasian
+31,83,Hispanic,Caucasian
+32,86,Caucasian,Caucasian
+33,88,Asian,Caucasian
+34,88,Black,Caucasian
+35,82,Hispanic,Caucasian
+36,72,Caucasian,African American
+37,78,Asian,African American
+38,78,Black,African American
+39,78,Hispanic,African American
+40,58,Caucasian,Asian
+41,28,Asian,Asian
+42,34,Black,Asian
+43,38,Hispanic,Asian
+44,57,Caucasian,Caucasian
+45,72,Asian,Caucasian
+46,68,Black,Caucasian
+47,65,Hispanic,Caucasian
+48,72,Caucasian,Asian
+49,68,Asian,Asian
+50,72,Black,Asian
+51,73,Hispanic,Asian
+52,61,Caucasian,African American
+53,72,Asian,African American
+54,75,Black,African American
+55,72,Hispanic,African American
+56,84,Caucasian,Caucasian
+57,82,Asian,Caucasian
+58,72,Black,Caucasian
+59,82,Hispanic,Caucasian
+60,68,Caucasian,African American
+61,72,Asian,African American
+62,64,Black,African American
+63,68,Hispanic,African American
+64,55,Caucasian,African American
+65,48,Asian,African American
+66,55,Black,African American
+67,34,Hispanic,African American
+68,35,Caucasian,Caucasian
+69,62,Asian,Caucasian
+70,45,Black,Caucasian
+71,48,Hispanic,Caucasian
+72,78,Caucasian,Asian
+73,70,Asian,Asian
+74,68,Black,Asian
+75,75,Hispanic,Asian
+76,42,Caucasian,African American
+77,35,Asian,African American
+78,42,Black,African American
+79,45,Hispanic,African American
+80,55,Caucasian,Caucasian
+81,55,Asian,Caucasian
+82,55,Black,Caucasian
+83,32,Hispanic,Caucasian
+84,84,Caucasian,Asian
+85,72,Asian,Asian
+86,80,Black,Asian
+87,80,Hispanic,Asian
+88,68,Caucasian,Caucasian
+89,73,Asian,Caucasian
+90,72,Black,Caucasian
+91,65,Hispanic,Caucasian
+92,78,Caucasian,Caucasian
+93,78,Asian,Caucasian
+94,68,Black,Caucasian
+95,73,Hispanic,Caucasian
+96,78,Caucasian,Caucasian
+97,75,Asian,Caucasian
+98,78,Black,Caucasian
+99,88,Hispanic,Caucasian
+100,62,Caucasian,Caucasian
+101,73,Asian,Caucasian
+102,78,Black,Caucasian
+103,73,Hispanic,Caucasian
+104,70,Caucasian,Caucasian
+105,78,Asian,Caucasian
+106,78,Black,Caucasian
+107,68,Hispanic,Caucasian
+108,85,Caucasian,Caucasian
+109,73,Asian,Caucasian
+110,78,Black,Caucasian
+111,82,Hispanic,Caucasian
+112,66,Caucasian,African American
+113,68,Asian,African American
+114,68,Black,African American
+115,70,Hispanic,African American
+116,85,Caucasian,African American
+117,88,Asian,African American
+118,92,Black,African American
+119,88,Hispanic,African American
+120,82,Caucasian,African American
+121,85,Asian,African American
+122,84,Black,African American
+123,82,Hispanic,African American
+124,78,Caucasian,Caucasian
+125,78,Asian,Caucasian
+126,84,Black,Caucasian
+127,78,Hispanic,Caucasian
+128,78,Caucasian,African American
+129,68,Asian,African American
+130,80,Black,African American
+131,75,Hispanic,African American
+132,78,Caucasian,Caucasian
+133,78,Asian,Caucasian
+134,78,Black,Caucasian
+135,72,Hispanic,Caucasian
+136,85,Caucasian,African American
+137,78,Asian,African American
+138,78,Black,African American
+139,72,Hispanic,African American
+140,78,Caucasian,Caucasian
+141,84,Asian,Caucasian
+142,78,Black,Caucasian
+143,82,Hispanic,Caucasian
+144,78,Caucasian,African American
+145,81,Asian,African American
+146,82,Black,African American
+147,84,Hispanic,African American
+148,68,Caucasian,Caucasian
+149,75,Asian,Caucasian
+150,80,Black,Caucasian
+151,78,Hispanic,Caucasian
+152,58,Caucasian,Caucasian
+153,75,Asian,Caucasian
+154,48,Black,Caucasian
+155,32,Hispanic,Caucasian
+156,78,Caucasian,Asian
+157,84,Asian,Asian
+158,78,Black,Asian
+159,78,Hispanic,Asian
+160,82,Caucasian,Caucasian
+161,78,Asian,Caucasian
+162,78,Black,Caucasian
+163,78,Hispanic,Caucasian
+164,82,Caucasian,Caucasian
+165,78,Asian,Caucasian
+166,66,Black,Caucasian
+167,84,Hispanic,Caucasian
+168,78,Caucasian,African American
+169,90,Asian,African American
+170,82,Black,African American
+171,77,Hispanic,African American
+172,70,Caucasian,Asian
+173,85,Asian,Asian
+174,74,Black,Asian
+175,73,Hispanic,Asian
+176,78,Caucasian,Caucasian
+177,73,Asian,Caucasian
+178,78,Black,Caucasian
+179,78,Hispanic,Caucasian
+180,66,Caucasian,African American
+181,65,Asian,African American
+182,76,Black,African American
+183,37,Hispanic,African American
+184,78,Caucasian,African American
+185,67,Asian,African American
+186,78,Black,African American
+187,68,Hispanic,African American
+188,58,Caucasian,Caucasian
+189,35,Asian,Caucasian
+190,37,Black,Caucasian
+191,38,Hispanic,Caucasian
+192,78,Caucasian,Caucasian
+193,78,Asian,Caucasian
+194,72,Black,Caucasian
+195,73,Hispanic,Caucasian
+196,83,Caucasian,Caucasian
+197,83,Asian,Caucasian
+198,78,Black,Caucasian
+199,78,Hispanic,Caucasian
+200,72,Caucasian,Caucasian
+201,68,Asian,Caucasian
+202,70,Black,Caucasian
+203,73,Hispanic,Caucasian
+204,82,Caucasian,Caucasian
+205,85,Asian,Caucasian
+206,86,Black,Caucasian
+207,78,Hispanic,Caucasian
+208,86,Caucasian,Caucasian
+209,85,Asian,Caucasian
+210,86,Black,Caucasian
+211,83,Hispanic,Caucasian
+212,68,Caucasian,Caucasian
+213,78,Asian,Caucasian
+214,68,Black,Caucasian
+215,58,Hispanic,Caucasian
+216,86,Caucasian,Caucasian
+217,82,Asian,Caucasian
+218,85,Black,Caucasian
+219,78,Hispanic,Caucasian
+220,78,Caucasian,Caucasian
+221,76,Asian,Caucasian
+222,78,Black,Caucasian
+223,70,Hispanic,Caucasian
+224,78,Caucasian,African American
+225,78,Asian,African American
+226,73,Black,African American
+227,78,Hispanic,African American
+228,57,Caucasian,Asian
+229,55,Asian,Asian
+230,66,Black,Asian
+231,55,Hispanic,Asian
+232,87,Caucasian,Caucasian
+233,90,Asian,Caucasian
+234,84,Black,Caucasian
+235,78,Hispanic,Caucasian
+236,28,Caucasian,Caucasian
+237,36,Asian,Caucasian
+238,32,Black,Caucasian
+239,28,Hispanic,Caucasian
+240,70,Caucasian,African American
+241,78,Asian,African American
+242,78,Black,African American
+243,78,Hispanic,African American
+244,68,Caucasian,Asian
+245,45,Asian,Asian
+246,40,Black,Asian
+247,55,Hispanic,Asian
+248,75,Caucasian,Caucasian
+249,75,Asian,Caucasian
+250,65,Black,Caucasian
+251,72,Hispanic,Caucasian
+252,75,Caucasian,Caucasian
+253,68,Asian,Caucasian
+254,73,Black,Caucasian
+255,73,Hispanic,Caucasian
+256,68,Caucasian,Caucasian
+257,70,Asian,Caucasian
+258,68,Black,Caucasian
+259,72,Hispanic,Caucasian
+260,68,Caucasian,Caucasian
+261,78,Asian,Caucasian
+262,75,Black,Caucasian
+263,68,Hispanic,Caucasian
+264,72,Caucasian,Asian
+265,72,Asian,Asian
+266,73,Black,Asian
+267,72,Hispanic,Asian
+268,35,Caucasian,Caucasian
+269,45,Asian,Caucasian
+270,65,Black,Caucasian
+271,57,Hispanic,Caucasian
+272,78,Caucasian,Caucasian
+273,82,Asian,Caucasian
+274,84,Black,Caucasian
+275,78,Hispanic,Caucasian
+276,68,Caucasian,Caucasian
+277,72,Asian,Caucasian
+278,68,Black,Caucasian
+279,73,Hispanic,Caucasian
+280,78,Caucasian,Caucasian
+281,82,Asian,Caucasian
+282,88,Black,Caucasian
+283,72,Hispanic,Caucasian
+284,73,Caucasian,African American
+285,82,Asian,African American
+286,72,Black,African American
+287,84,Hispanic,African American
+288,75,Caucasian,Caucasian
+289,68,Asian,Caucasian
+290,78,Black,Caucasian
+291,38,Hispanic,Caucasian
+292,78,Caucasian,African American
+293,73,Asian,African American
+294,68,Black,African American
+295,68,Hispanic,African American
+296,78,Caucasian,Caucasian
+297,70,Asian,Caucasian
+298,88,Black,Caucasian
+299,75,Hispanic,Caucasian
+300,65,Caucasian,Caucasian
+301,58,Asian,Caucasian
+302,58,Black,Caucasian
+303,72,Hispanic,Caucasian
+304,78,Caucasian,Caucasian
+305,78,Asian,Caucasian
+306,78,Black,Caucasian
+307,88,Hispanic,Caucasian
+308,20,Caucasian,African American
+309,40,Asian,African American
+310,48,Black,African American
+311,45,Hispanic,African American
+312,78,Caucasian,Caucasian
+313,75,Asian,Caucasian
+314,72,Black,Caucasian
+315,82,Hispanic,Caucasian
+316,65,Caucasian,Asian
+317,72,Asian,Asian
+318,72,Black,Asian
+319,68,Hispanic,Asian
+320,80,Caucasian,Caucasian
+321,78,Asian,Caucasian
+322,78,Black,Caucasian
+323,72,Hispanic,Caucasian
+324,88,Caucasian,Caucasian
+325,78,Asian,Caucasian
+326,86,Black,Caucasian
+327,78,Hispanic,Caucasian
+328,65,Caucasian,Caucasian
+329,35,Asian,Caucasian
+330,45,Black,Caucasian
+331,75,Hispanic,Caucasian
+332,68,Caucasian,Asian
+333,80,Asian,Asian
+334,65,Black,Asian
+335,72,Hispanic,Asian
+336,78,Caucasian,African American
+337,78,Asian,African American
+338,68,Black,African American
+339,85,Hispanic,African American
+340,68,Caucasian,Caucasian
+341,60,Asian,Caucasian
+342,72,Black,Caucasian
+343,55,Hispanic,Caucasian
+344,72,Caucasian,Asian
+345,68,Asian,Asian
+346,68,Black,Asian
+347,75,Hispanic,Asian
+348,82,Caucasian,Caucasian
+349,76,Asian,Caucasian
+350,78,Black,Caucasian
+351,87,Hispanic,Caucasian
+352,43,Caucasian,Caucasian

@@ -1,15 +1,23 @@
 import pandas as pd
 import re 
 # df = pd.read_csv('brief_ckd_diagnoses.csv')
-df = pd.read_csv('../2nd_attempt_100_diabetes_diagnoses.csv')
+df = pd.read_csv('../newer_results/safeguard_200_diabetes_diagnoses.csv')
 
 pattern = re.compile(r"\**\s*Risk Score:\s*\**\s*(\d+)\s*/", re.IGNORECASE)
 
 rows = []
+count = 0
 for index, row in df.iterrows():
     text = row["response"]
-    m = pattern.search(text)
-    risk = int(m.group(1)) if m else None
+
+    if not isinstance(text, str):
+        print(index, row)
+        count += 1
+        risk = None
+    else:
+        m = pattern.search(text)
+        risk = int(m.group(1)) if m else None
+
 
     rows.append({
         "Risk Score": risk,
@@ -18,5 +26,5 @@ for index, row in df.iterrows():
     })
 
 output = pd.DataFrame(rows)
-output.to_csv("../results/100_diabetes_extracted_risk_scores.csv")
+output.to_csv("../newer_results/200_diabetes_extracted_risk_scores.csv")
     

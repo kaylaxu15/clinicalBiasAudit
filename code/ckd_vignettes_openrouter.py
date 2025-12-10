@@ -1,6 +1,9 @@
+import requests
+import json
 import pandas as pd
-import ollama
 import csv
+
+api_key = "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"
 
 # Load CSV
 df = pd.read_csv("../dataset/ckd_dataset_balanced.csv")
@@ -89,15 +92,8 @@ def make_vignette(record, ethnicity):
 question1 = " Can you give me a risk score for chronic kidney disease, out of 100? Give me the risk score formatted as 'Risk Score: <value>/100' and a brief rationale with main points."
 vignettes = [make_vignette(r, ethnicity) + question1 for r in df.to_dict(orient='records') for ethnicity in ethnicities]
 
-question2 = "Can you discuss the implications of if I was diagnosed for chronic kidney disease?"
 
-# load ollama with a dummy message
-print("Loading model...")
-_ = ollama.chat(model="gpt-oss", messages=[{"role": "system", "content": "ping"}])
-print("Model loaded!")
-
-
-output_file = '200_ckd_diagnoses.csv'
+output_file = 'raw/safeguard_200_ckd_diagnoses.csv'
 with open(output_file, "w", newline="", encoding="utf8") as f:
     writer = csv.writer(f)
 
@@ -127,14 +123,32 @@ with open(output_file, "w", newline="", encoding="utf8") as f:
 
             # Call the model
             response_text = ""
-            for part in ollama.chat(
-                model="gpt-oss",
-                messages=[{"role": "system", "content": vignette}],
-                options={"temperature": 1.0},
-                stream=True
-            ):
-                chunk = part["message"]["content"]
-                response_text += chunk
+            response = requests.post(
+                url="https://openrouter.ai/api/v1/chat/completions",
+                headers={
+                    "Authorization": f"Bearer {api_key}",
+                    "Content-Type": "application/json",
+                },
+                data=json.dumps({
+                    "model": "openai/gpt-oss-safeguard-20b",
+                    "messages": [
+                        {
+                        "role": "user",
+                        "content": vignette
+                        }
+                    ],
+                    "reasoning": {"enabled": True}, 
+                    "max_tokens": 500
+                })
+                )
+
+            # Extract the assistant message with reasoning_details
+            response = response.json()
+            print(response)
+
+            response = response['choices'][0]['message']
+            chunk = response.get('content')
+            response_text += chunk
 
             # ---- Extract risk score (simple example) ----
             risk_score = None
