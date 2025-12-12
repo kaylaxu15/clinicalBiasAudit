@@ -3,6 +3,11 @@ import json
 import pandas as pd
 import csv
 
+"""
+Running 200 diabetes records for gpt-oss safeguard model
+
+"""
+
 api_key = "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"
 
 # Load CSV

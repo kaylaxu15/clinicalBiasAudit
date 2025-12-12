@@ -1,6 +1,10 @@
 import pandas as pd
 import re 
-# df = pd.read_csv('brief_ckd_diagnoses.csv')
+
+"""
+Risk score extraction for responses to 200 diabetes records (swap out names of files as necessary)
+"""
+
 df = pd.read_csv('../newer_results/responses/llama_3.3_200_diabetes_diagnoses.csv')
 
 pattern = re.compile(r"\**\s*Risk Score:\s*\**\s*(\d+)\s*/", re.IGNORECASE)

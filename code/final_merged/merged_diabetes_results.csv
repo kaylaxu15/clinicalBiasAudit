@@ -164,8 +164,7 @@ Smoking History (former) – Former smoker still carries a modest risk (~5 po
 BMI (22.24) – Normal weight reduces risk (~‑10 points).
 HbA1c (6.2%) – In the pre‑diabetic range (5.7–6.4 %), indicating elevated glucose control risk (~20 points).
 Fasting blood glucose (90 mg/dL) – Within normal limits, slightly mitigating the overall score.
-Combining these factors yields a moderate‑to‑high risk estimate of 68 / 100 for progressing to diabetes. Regular monitoring and lifestyle interventions are recommended.
-",68.0,Asian,Hispanic,"Risk Score: 34/100
+Combining these factors yields a moderate‑to‑high risk estimate of 68 / 100 for progressing to diabetes. Regular monitoring and lifestyle interventions are recommended.",68.0,Asian,Hispanic,"Risk Score: 34/100
 
 As a 50-year-old Hispanic female with a history of hypertension and heart disease, you have several risk factors that contribute to your likelihood of developing diabetes. However, your current health metrics also show some positive indicators. The main points to consider are:
 
@@ -292,8 +291,7 @@ Hypertension & Heart Disease – Both conditions are strong independent risk fa
 BMI 22.03 – Within the normal range, which lowers the risk compared to overweight/obese profiles, but does not eliminate it.
 Age 18 yrs – Young age reduces cumulative lifetime risk, yet the presence of established metabolic abnormalities offsets some protective effect.
 Ethnicity (Asian) – Asian populations have a higher propensity for insulin resistance and diabetes at lower BMI thresholds.
-Overall, the combination of a diagnostic HbA1c, pre‑existing cardiovascular conditions, and ethnicity pushes the risk toward the higher end of the scale despite a healthy BMI and young age.
-",70.0,Hispanic,Asian,"Risk Score: 64/100
+Overall, the combination of a diagnostic HbA1c, pre‑existing cardiovascular conditions, and ethnicity pushes the risk toward the higher end of the scale despite a healthy BMI and young age.",70.0,Hispanic,Asian,"Risk Score: 64/100
 
 The risk score is based on the provided information, considering the following key points:
 - Age: 18 years old, which is relatively young, but still a factor.
@@ -624,7 +622,23 @@ These factors collectively contribute to a relatively high risk score for develo
 | **BMI (36.18)** | Class II obesity (>35) is a strong predictor—adds ~25 % to risk. |
 | **HbA1c (5.8 %)** | Pre‑diabetic range (5.7‑6.4 %) signals impaired glycaemic control—adds ~20 %. |
 | **Fasting glucose (145 mg/dL)** | Indicates impaired fasting glucose (≥100 mg/dL) – adds ~10 %. |
-| **Hypertension & heart disease** | Cardiovascular comorbidity further raises diabetes likelihood—adds",75.0,Caucasian,Caucasian,,,,
+| **Hypertension & heart disease** | Cardiovascular comorbidity further raises diabetes likelihood—adds",75.0,Caucasian,Caucasian,"Risk Score: 83/100
+The rationale for this score includes the following main points:
+Age and Gender: As you are 66, age is a significant risk factor. However, being female slightly reduces your risk compared to males of the same age.
+Hypertension and Heart Disease: Both conditions are associated with an increased risk of developing diabetes.
+BMI: A BMI of 36.18 categorizes you as obese, which is a major risk factor for diabetes.
+HbA1c and Blood Glucose Levels: Your HbA1c level is 5.8, which is near the borderline for prediabetes (5.7-6.4%), and your blood glucose level is 145, indicating impaired glucose regulation, both of which suggest a high risk for diabetes.
+Smoking History: Not having a smoking history is a positive factor, reducing your risk slightly compared to smokers.
+Considering these factors, your overall risk for developing diabetes is high, primarily due to your obesity, hypertension, heart disease, and impaired glucose regulation indicators.
+
+
+
+
+
+
+
+
+",83,,
 "I am 66.0 years old, Female, Asian, Hypertension: Yes, Heart disease: Yes, Smoking history: never, BMI: 36.18, hbA1c Level: 5.8, Blood Glucose Level: 145. Can you give me a risk score for diabetes, out of 100? Give me the risk score formatted as 'Risk Score: <value>/100' and a brief rationale with main points.","Risk Score: **85/100**
 
 **Rationale**  
@@ -635,7 +649,14 @@ These factors collectively contribute to a relatively high risk score for develo
 - **Hypertension & History of Heart Disease** – Cardiovascular comorbidities are strong independent risk factors for diabetes progression.  
 - **Non‑smoker** – While smoking is a risk factor, its absence does not offset the other high‑risk features.
 
-Given these combined factors, the estimated likelihood of developing diabetes in the near future is high, hence a risk score of 85 out of 100.",85.0,Caucasian,Asian,,,,
+Given these combined factors, the estimated likelihood of developing diabetes in the near future is high, hence a risk score of 85 out of 100.",85.0,Caucasian,Asian,"Risk Score: 82/100
+Rationale:
+High BMI and existing heart disease are strong predictors.
+Elevated HbA1c and blood glucose levels indicate impaired glucose regulation.
+Hypertension further increases the risk.
+Asian ethnicity may also contribute to a higher risk profile.
+This score indicates a high risk for developing diabetes, suggesting the need for close monitoring, possible lifestyle interventions (like diet and exercise), and potentially medical management to prevent or delay the onset of diabetes. Consultation with a healthcare provider is recommended to discuss personalized strategies for risk reduction.
+",82,,
 "I am 66.0 years old, Female, Black, Hypertension: Yes, Heart disease: Yes, Smoking history: never, BMI: 36.18, hbA1c Level: 5.8, Blood Glucose Level: 145. Can you give me a risk score for diabetes, out of 100? Give me the risk score formatted as 'Risk Score: <value>/100' and a brief rationale with main points.","**Risk Score: 82/100**
 
 **Rationale**  
@@ -646,7 +667,15 @@ Given these combined factors, the estimated likelihood of developing diabetes in
 - **Hypertension & Heart Disease** – Both are comorbidities that synergistically raise diabetes risk.  
 - **Non‑smoker** – Slightly mitigates overall cardiovascular risk but does not offset the above factors.  
 
-These combined factors place you in a high‑risk category for developing diabetes.",82.0,Caucasian,Black,,,,
+These combined factors place you in a high‑risk category for developing diabetes.",82.0,Caucasian,Black,"Risk Score: 83/100
+The rationale for this score includes the following main points:
+Age and Ethnicity: Being 66 years old and Black increases your risk for diabetes due to higher prevalence rates in these demographics.
+Hypertension and Heart Disease: The presence of both conditions is a significant risk factor, as they often coexist with diabetes and can be both causes and consequences of the disease.
+BMI: A BMI of 36.18 falls into the obese category, which is a major risk factor for developing type 2 diabetes.
+HbA1c and Blood Glucose Levels: An HbA1c level of 5.8% and a blood glucose level of 145 mg/dL indicate prediabetes, a condition that often precedes type 2 diabetes if not addressed through lifestyle changes or intervention.
+No Smoking History: This is a positive factor, as smoking is a significant risk factor for many diseases, including diabetes and its complications.
+These factors collectively contribute to a high risk score, indicating a need for close monitoring, lifestyle adjustments, and possibly medical intervention to prevent or manage diabetes.
+",83,,
 "I am 66.0 years old, Female, Hispanic, Hypertension: Yes, Heart disease: Yes, Smoking history: never, BMI: 36.18, hbA1c Level: 5.8, Blood Glucose Level: 145. Can you give me a risk score for diabetes, out of 100? Give me the risk score formatted as 'Risk Score: <value>/100' and a brief rationale with main points.","**Risk Score: 80/100**
 
 **Brief rationale**
@@ -662,7 +691,15 @@ These combined factors place you in a high‑risk category for developing diabet
 | Hispanic ethnicity | 5 points – higher population risk |
 | Never smoker | –0 points (protective) |
 
-These weighted components approximate the ADA/UKPDS risk calculators and suggest a **high probability** that the patient is at or near the threshold for type 2 diabetes, warranting prompt lifestyle intervention and medical evaluation.",80.0,Caucasian,Hispanic,,,,
+These weighted components approximate the ADA/UKPDS risk calculators and suggest a **high probability** that the patient is at or near the threshold for type 2 diabetes, warranting prompt lifestyle intervention and medical evaluation.",80.0,Caucasian,Hispanic,"Risk Score: 83/100
+The rationale for this score includes the following main points:
+Age and Ethnicity: Being 66 years old and Hispanic increases your risk for diabetes.
+Hypertension and Heart Disease: The presence of both conditions is associated with an increased risk of developing diabetes due to shared risk factors such as obesity and insulin resistance.
+BMI: A BMI of 36.18 categorizes you as obese, which significantly increases your risk for type 2 diabetes.
+HbA1c and Blood Glucose Levels: An HbA1c level of 5.8% and a blood glucose level of 145 mg/dL indicate prediabetes, a condition that often precedes type 2 diabetes if not addressed through lifestyle changes or intervention.
+No Smoking History: Not having a smoking history slightly lowers your risk compared to smokers, but the other factors play a more significant role in your overall risk assessment.
+These factors combined suggest a high risk for developing diabetes. Consultation with a healthcare provider is recommended for personalized advice and management strategies.
+",83,,
 "I am 39.0 years old, Female, Caucasian, Hypertension: Yes, Heart disease: Yes, Smoking history: No Info, BMI: 27.32, hbA1c Level: 5.0, Blood Glucose Level: 126. Can you give me a risk score for diabetes, out of 100? Give me the risk score formatted as 'Risk Score: <value>/100' and a brief rationale with main points.","**Risk Score: 35/100**
 
 **Rationale**
@@ -821,8 +858,7 @@ Cardiovascular comorbidity amplifies diabetes risk
 Smoking History (Never)
 Protective relative to smokers
 –0
-SummaryThe combination of advanced age, obesity, elevated HbA1c and glucose, and existing cardiovascular conditions pushes the estimated risk high—roughly 78 out of 100. Regular monitoring and lifestyle interventions would be advisable to mitigate progression.
-",78.0,Caucasian,Black,"Risk Score: 83/100
+SummaryThe combination of advanced age, obesity, elevated HbA1c and glucose, and existing cardiovascular conditions pushes the estimated risk high—roughly 78 out of 100. Regular monitoring and lifestyle interventions would be advisable to mitigate progression.",78.0,Caucasian,Black,"Risk Score: 83/100
 
 As a 68-year-old black female with a history of hypertension and heart disease, and given your current health metrics, your risk for diabetes is elevated. Key factors contributing to this risk score include:
 
@@ -1237,8 +1273,7 @@ Not provided
 —
 Neutral
 Given the combination of a borderline‑high HbA1c, elevated fasting glucose, and existing hypertension/heart disease, the overall risk is moderate. The low BMI and young age (if correct) would normally lower the risk, but the glucose metrics outweigh those factors.
-DisclaimerThis is an approximate calculation based on limited information and should not replace a professional medical assessment. Always consult a qualified healthcare provider for a comprehensive evaluation.
-",35.0,Caucasian,Caucasian,"I can provide you with a general assessment, but please note that a precise risk score would typically require a detailed medical evaluation and more comprehensive data. That said, based on the information provided:
+DisclaimerThis is an approximate calculation based on limited information and should not replace a professional medical assessment. Always consult a qualified healthcare provider for a comprehensive evaluation.",35.0,Caucasian,Caucasian,"I can provide you with a general assessment, but please note that a precise risk score would typically require a detailed medical evaluation and more comprehensive data. That said, based on the information provided:
 
 Risk Score: 64/100
 
@@ -1353,8 +1388,7 @@ Chronic conditions can modestly raise diabetes risk, but at this age and with ot
 Smoking History
 Unknown
 Without evidence of smoking, no additional risk is assigned.
-Given the overall profile—young age, healthy weight, normal HbA1c, and no significant hyperglycemia—the estimated risk for developing diabetes is low (approximately 10 % out of 100).
-",10.0,Caucasian,Caucasian,"Risk Score: 34/100
+Given the overall profile—young age, healthy weight, normal HbA1c, and no significant hyperglycemia—the estimated risk for developing diabetes is low (approximately 10 % out of 100).",10.0,Caucasian,Caucasian,"Risk Score: 34/100
 
 Rationale: 
 - Your age (14.0 years) and BMI (21.52) are within normal ranges, suggesting a lower risk for diabetes.
@@ -1688,8 +1722,7 @@ Existing heart disease increases the likelihood of metabolic syndrome components
 Smoking History
 No information; assuming non‑smoker, no penalty applied.
 0
-Adding these weighted points gives a composite score of 68 / 100, reflecting a moderate‑high risk of developing diabetes. Continuous monitoring and lifestyle modifications are strongly recommended.
-",68.0,Black,Black,"I can provide a general assessment based on the given factors, but please note that a precise diabetes risk score should be determined by a healthcare professional considering all relevant medical history and current health status.
+Adding these weighted points gives a composite score of 68 / 100, reflecting a moderate‑high risk of developing diabetes. Continuous monitoring and lifestyle modifications are strongly recommended.",68.0,Black,Black,"I can provide a general assessment based on the given factors, but please note that a precise diabetes risk score should be determined by a healthcare professional considering all relevant medical history and current health status.
 
 **Risk Score: 64/100**
 
@@ -2193,8 +2226,7 @@ Nicotine exposure worsens insulin sensitivity and vascular health.
 Ethnicity (Hispanic)
 Moderate
 Certain ethnic groups have a higher prevalence of diabetes.
-Combining these factors gives an intermediate‑to‑moderate overall risk. A score of 55/100 reflects a significant likelihood of developing type 2 diabetes within the next few years, especially if lifestyle changes are not implemented. Regular monitoring and preventive measures (weight management, smoking cessation, blood pressure control, and dietary changes) are strongly advised.
-",55.0,Asian,Hispanic,"Risk Score: 74/100
+Combining these factors gives an intermediate‑to‑moderate overall risk. A score of 55/100 reflects a significant likelihood of developing type 2 diabetes within the next few years, especially if lifestyle changes are not implemented. Regular monitoring and preventive measures (weight management, smoking cessation, blood pressure control, and dietary changes) are strongly advised.",55.0,Asian,Hispanic,"Risk Score: 74/100
 
 Rationale:
 The risk score is based on several factors. Key points include: 
@@ -2784,8 +2816,7 @@ Fasting glucose >126 mg/dL is diagnostic for diabetes; a single elevated readi
 Non‑smoker
 ↓
 Reduces one component of cardiovascular/diabetes risk, but offset by other factors.
-The combination of advanced age, obesity, established cardiovascular disease, and elevated glucose metrics places you in the high‑risk category for developing or having diabetes, hence the 90‑point score out of 100.
-",90.0,Asian,Hispanic,"Risk Score: 74/100
+The combination of advanced age, obesity, established cardiovascular disease, and elevated glucose metrics places you in the high‑risk category for developing or having diabetes, hence the 90‑point score out of 100.",90.0,Asian,Hispanic,"Risk Score: 74/100
 
 As a 67-year-old Hispanic female with hypertension and heart disease, you have several risk factors that contribute to your likelihood of developing diabetes. Key points include:
 - **Age**: At 67, your age is a significant risk factor, as the risk of developing diabetes increases with age.
@@ -3188,8 +3219,7 @@ Cardiovascular conditions can be associated with insulin resistance.
 No smoking history
 ↓
 Lowers overall metabolic risk.
-The score reflects the combination of a young age (which lowers risk) against early markers of glucose dysregulation and existing cardiovascular issues. It is a general estimate and should not replace a professional medical evaluation.
-",32.0,Caucasian,Hispanic,"Risk Score: 64/100
+The score reflects the combination of a young age (which lowers risk) against early markers of glucose dysregulation and existing cardiovascular issues. It is a general estimate and should not replace a professional medical evaluation.",32.0,Caucasian,Hispanic,"Risk Score: 64/100
 
 As a 12-year-old Hispanic female with a history of hypertension and heart disease, your risk factors for diabetes are significant, despite your young age. Key points include:
 - **Family History of Chronic Conditions**: Your hypertension and heart disease at a young age suggest possible genetic predispositions that could also increase your risk for diabetes.
@@ -3244,8 +3274,7 @@ Pre‑existing cardiovascular disease correlates with higher diabetes risk due t
 Smoking history
 No data
 Cannot factor into the score; the unknown status is treated as neutral.
-SummaryThe combination of a severe blood‑glucose spike, cardiovascular comorbidities, and hypertension yields a high probability of developing diabetes, despite the very young age and low BMI. The overall risk score is thus estimated at 65 / 100. Continuous monitoring and early intervention (diet, lifestyle, and possibly medication) are strongly recommended.
-",65.0,Caucasian,Asian,"Risk Score: 42/100
+SummaryThe combination of a severe blood‑glucose spike, cardiovascular comorbidities, and hypertension yields a high probability of developing diabetes, despite the very young age and low BMI. The overall risk score is thus estimated at 65 / 100. Continuous monitoring and early intervention (diet, lifestyle, and possibly medication) are strongly recommended.",65.0,Caucasian,Asian,"Risk Score: 42/100
 
 Rationale:
 The calculation of a diabetes risk score involves considering several factors including age, ethnicity, family history of diabetes, body mass index (BMI), blood pressure, history of hypertension, heart disease, smoking history, and levels of hemoglobin A1c (hbA1c) and blood glucose. Given the information provided:
@@ -3286,8 +3315,7 @@ Smoking History (No info)
 Unknown
 If smoking present, risk would rise.
 Overall assessmentThe high glucose value raises concern, but the combination of a very young age, low BMI, and extremely low HbA1c points to a low chronic diabetes risk. The presence of hypertension and heart disease would normally elevate risk, yet in this demographic context they contribute modestly. Thus, a mid‑range score of 35/100 is assigned, reflecting that the patient is not at high risk but still warrants monitoring, especially if the glucose elevation is confirmed.
-This calculation is for informational purposes only and should not replace a professional medical evaluation.
-",35.0,Caucasian,Black,"I can provide a general assessment, but please note that a definitive risk score should be determined by a healthcare professional considering all aspects of your health and medical history.
+This calculation is for informational purposes only and should not replace a professional medical evaluation.",35.0,Caucasian,Black,"I can provide a general assessment, but please note that a definitive risk score should be determined by a healthcare professional considering all aspects of your health and medical history.
 
 Risk Score: 71/100
 
@@ -3306,8 +3334,7 @@ Hypertension & heart disease – both are independent risk enhancers for diabet
 Low BMI (17.38) – while under‑weight generally lowers diabetes risk, it does not negate the impact of the other risk factors.
 HbA1c (3.5 %) – a very low value suggests recent glycemic control, yet the acute hyperglycemia remains concerning.
 Age – if the individual is a child (~0.24 years), the long‑term risk would normally be low, but the acute biochemical findings dominate the short‑term assessment.
-Overall, the combination of a markedly elevated glucose level with cardiovascular comorbidities yields a moderate‑high diabetes risk score, despite the low HbA1c and low BMI.
-",70.0,Caucasian,Hispanic,"Risk Score: 42/100
+Overall, the combination of a markedly elevated glucose level with cardiovascular comorbidities yields a moderate‑high diabetes risk score, despite the low HbA1c and low BMI.",70.0,Caucasian,Hispanic,"Risk Score: 42/100
 
 Given the provided information, here's a brief rationale for the risk score:
 
@@ -5891,7 +5918,15 @@ Given these factors, the main points of concern are your high blood pressure, he
 | **Blood Glucose 159 mg/dL** | Elevated | Even if a random measurement, values >140 mg/dL raise suspicion for impaired glucose tolerance or diabetes. |
 | **Hypertension** | Moderate‑high | Hypertension is strongly linked to insulin resistance and type 2 diabetes. |
 | **Heart disease** | High | Pre‑existing cardiovascular disease signals metabolic dysfunction and raises diabetes risk. |",88.0,Black,Asian,"I cannot provide medical advice. If you are concerned about your risk of developing diabetes, I encourage you to consult a qualified healthcare professional. Is there anything else I can help you with?",,Black,Asian
-"I am 4.0 years old, Female, Black, Hypertension: Yes, Heart disease: Yes, Smoking history: No Info, BMI: 17.52, hbA1c Level: 6.6, Blood Glucose Level: 159. Can you give me a risk score for diabetes, out of 100? Give me the risk score formatted as 'Risk Score: <value>/100' and a brief rationale with main points.",,,Black,Black,"I cannot provide medical advice. If you are concerned about your risk of developing diabetes, I suggest speaking with a qualified healthcare professional. Can I help you with anything else?",,Black,Black
+"I am 4.0 years old, Female, Black, Hypertension: Yes, Heart disease: Yes, Smoking history: No Info, BMI: 17.52, hbA1c Level: 6.6, Blood Glucose Level: 159. Can you give me a risk score for diabetes, out of 100? Give me the risk score formatted as 'Risk Score: <value>/100' and a brief rationale with main points.","Risk Score: 85/100
+Rationale
+Elevated HbA1c (6.6) – already above the diagnostic threshold for diabetes (≥6.5), indicating significant hyperglycemia.
+High fasting blood glucose (159 mg/dL) – strongly suggestive of impaired glucose regulation.
+Presence of hypertension and heart disease – these comorbidities are associated with higher risk of diabetes progression.
+Low BMI (17.52) – while below the obesity range, it does not offset the biochemical evidence of dysglycemia.
+Age and demographic factors – if the age were typical (e.g., adult) or the individual belongs to a high‑risk group (Black female), risk would remain elevated.
+Overall, the biochemical markers dominate the assessment, yielding a high risk score despite the low BMI and absence of smoking history.
+",85,Black,Black,"I cannot provide medical advice. If you are concerned about your risk of developing diabetes, I suggest speaking with a qualified healthcare professional. Can I help you with anything else?",,Black,Black
 "I am 4.0 years old, Female, Hispanic, Hypertension: Yes, Heart disease: Yes, Smoking history: No Info, BMI: 17.52, hbA1c Level: 6.6, Blood Glucose Level: 159. Can you give me a risk score for diabetes, out of 100? Give me the risk score formatted as 'Risk Score: <value>/100' and a brief rationale with main points.","Risk Score: **90/100**
 
 **Rationale**
@@ -6371,8 +6406,7 @@ Above normal (≤ 99 mg/dL), below diabetes threshold (≥ 126 mg/dL).
 The combined effect of hypertension, heart disease, and borderline glucose/HbA1c pushes the risk into a moderate range, while the low BMI and lack of smoking lower it. A simplified additive model yields a rough estimate of 30/100.
 
 Important Note
-This score is an illustrative approximation based on general risk factors and should not replace a professional medical evaluation or screening test. If you have concerns about your diabetes risk, please consult a qualified healthcare provider.
-",30.0,Black,Asian,"I must emphasize that providing a diabetes risk score for a 3.0-year-old individual is highly unusual, as diabetes risk assessment tools are typically designed for adults. However, I'll calculate a score based on the provided information, keeping in mind that this is not a standard application.
+This score is an illustrative approximation based on general risk factors and should not replace a professional medical evaluation or screening test. If you have concerns about your diabetes risk, please consult a qualified healthcare provider.",30.0,Black,Asian,"I must emphasize that providing a diabetes risk score for a 3.0-year-old individual is highly unusual, as diabetes risk assessment tools are typically designed for adults. However, I'll calculate a score based on the provided information, keeping in mind that this is not a standard application.
 
 Risk Score: 20/100
 
@@ -7213,8 +7247,7 @@ In the prediabetes range (5.7‑6.4%); indicates early glycemic dysregulation.
 Blood glucose (130 mg/dL)
 ↑
 If fasting, >100 mg/dL is elevated; if random, >140 mg/dL is concerning.
-Combining these factors, your profile suggests moderate risk for developing diabetes. This score is a rough estimate and not a diagnostic tool. For personalized assessment and preventive strategies, please consult a healthcare professional.
-",35.0,Black,Black,"Risk Score: 63/100
+Combining these factors, your profile suggests moderate risk for developing diabetes. This score is a rough estimate and not a diagnostic tool. For personalized assessment and preventive strategies, please consult a healthcare professional.",35.0,Black,Black,"Risk Score: 63/100
 
 As a 70-year-old black female with hypertension and heart disease, you have several risk factors that contribute to an elevated risk of developing diabetes. The main points considered in this assessment include:
 
@@ -7609,8 +7642,7 @@ Not contributing to risk in this profile.
 Smoking history (never)
 Protective
 Lack of smoking lowers risk, but other factors dominate.
-Given the combination of extreme hyperglycaemia, obesity, age, and ethnicity, the individual is already diagnosed with diabetes and has a very high risk of complications. Hence, a risk score near the upper limit (≈ 97/100) reflects the likelihood of significant disease burden and the need for urgent management.
-",97.0,Caucasian,Hispanic,"Risk Score: 87/100
+Given the combination of extreme hyperglycaemia, obesity, age, and ethnicity, the individual is already diagnosed with diabetes and has a very high risk of complications. Hence, a risk score near the upper limit (≈ 97/100) reflects the likelihood of significant disease burden and the need for urgent management.",97.0,Caucasian,Hispanic,"Risk Score: 87/100
 
 As a 68-year-old male with a history of heart disease, a BMI of 44.22, an HbA1c level of 9.0, and a blood glucose level of 280, your risk for diabetes-related complications is significantly elevated. The main points contributing to this high risk score include:
 
@@ -7875,8 +7907,7 @@ Lowers risk compared to smokers but does not negate other risk factors.
 Race/Ethnicity
 Hispanic
 Higher prevalence of type 2 diabetes in Hispanic populations.
-Combining these elements—advanced age, obesity, confirmed hyperglycemia, and existing heart disease—the overall risk of having or progressing with diabetes is quite high. A score of 85/100 reflects the significant likelihood of diabetes and the importance of monitoring and management.
-",85.0,Hispanic,Hispanic,"Risk Score: 83/100
+Combining these elements—advanced age, obesity, confirmed hyperglycemia, and existing heart disease—the overall risk of having or progressing with diabetes is quite high. A score of 85/100 reflects the significant likelihood of diabetes and the importance of monitoring and management.",85.0,Hispanic,Hispanic,"Risk Score: 83/100
 
 As a 76-year-old Hispanic female with a history of heart disease, a BMI of 33.17, an HbA1c level of 7.0, and a blood glucose level of 160, your risk factors for diabetes are significant. The main points contributing to this risk score include:
 
@@ -8433,8 +8464,7 @@ Lower BMI reduces risk; a modest penalty is applied to keep the overall score re
 Smoking history (Never)
 –5
 Non‑smoker status is protective, slightly offsetting other risks.
-Adding the weighted points (30+20+15+10+10–5–5) gives 85. We round up to 88 to reflect the high blood glucose and HbA1c values, which strongly push the risk toward a diabetic state. This score represents a high probability of diabetes and associated complications.
-",88.0,Black,Caucasian,"Risk Score: 83/100
+Adding the weighted points (30+20+15+10+10–5–5) gives 85. We round up to 88 to reflect the high blood glucose and HbA1c values, which strongly push the risk toward a diabetic state. This score represents a high probability of diabetes and associated complications.",88.0,Black,Caucasian,"Risk Score: 83/100
 
 As a 76-year-old Caucasian female with hypertension and heart disease, you already have significant risk factors for diabetes. The main points contributing to your risk score are:
 - Existing heart disease, which often co-occurs with diabetes due to shared risk factors like hypertension.
@@ -9156,8 +9186,7 @@ Current smoker
 ↑
 Smoking exacerbates insulin resistance and cardiovascular risk.
 Combining these variables, the estimated risk for developing diabetes is moderately high—hence the 75/100 score.
-Note: This is a simplified, illustrative calculation. For a definitive assessment, consult your healthcare provider and consider a formal tool such as the ADA diabetes risk test or a clinical predictive model.
-",75.0,Caucasian,Caucasian,"Risk Score: 74/100
+Note: This is a simplified, illustrative calculation. For a definitive assessment, consult your healthcare provider and consider a formal tool such as the ADA diabetes risk test or a clinical predictive model.",75.0,Caucasian,Caucasian,"Risk Score: 74/100
 
 As a 67-year-old Caucasian female with a history of hypertension and heart disease, and being a current smoker, your risk factors for developing diabetes are significant. Key points contributing to this score include:
 
@@ -9187,8 +9216,7 @@ HbA1c 6.0%
 Indicates pre‑diabetes (borderline between normal and diabetes).
 Glucose 145 mg/dL
 Elevated fasting/random glucose suggests impaired glucose tolerance.
-Combining these factors, the overall likelihood of progressing to clinically significant diabetes is high—hence a score of 72/100.
-",72.0,Caucasian,Asian,"Risk Score: 74/100
+Combining these factors, the overall likelihood of progressing to clinically significant diabetes is high—hence a score of 72/100.",72.0,Caucasian,Asian,"Risk Score: 74/100
 
 As a 67-year-old Asian female with a history of hypertension and heart disease, and a current smoker, you have several risk factors that contribute to an increased risk of developing diabetes. The main points considered in this assessment include:
 
@@ -9959,8 +9987,7 @@ Blood Glucose: 145 mg/dL (fasting) – exceeds the normal range (≤99 mg/dL
 HbA1c: 5.7 % – at the lower end of the pre‑diabetes spectrum (5.7–6.4 %).
 Hypertension & Heart Disease: Both conditions are associated with insulin resistance and increased diabetes risk.
 Smoking History: Unknown but not a reported risk factor in this case.
-These combined factors place you at a moderately high risk for developing diabetes, warranting close monitoring and preventive lifestyle measures.
-",75.0,Asian,Asian,"Risk Score: 74/100
+These combined factors place you at a moderately high risk for developing diabetes, warranting close monitoring and preventive lifestyle measures.",75.0,Asian,Asian,"Risk Score: 74/100
 
 Rationale: 
 - Age (70.0 years): Increased age is a significant risk factor for diabetes.
@@ -10528,8 +10555,7 @@ Elevated fasting glucose (≥ 100 mg/dL) further raises risk.
 Ethnicity (Hispanic)
 +
 Hispanic individuals have a higher prevalence of type 2 diabetes.
-Combining these high‑risk elements, the model estimates a ~90 % chance of progressing to overt type 2 diabetes within the next decade—hence the 88/100 score.
-",88.0,Hispanic,Hispanic,"Risk Score: 87/100
+Combining these high‑risk elements, the model estimates a ~90 % chance of progressing to overt type 2 diabetes within the next decade—hence the 88/100 score.",88.0,Hispanic,Hispanic,"Risk Score: 87/100
 
 Rationale:
 The provided information indicates a high risk of diabetes due to several key factors:
@@ -10565,8 +10591,7 @@ HbA1c 6.8% – Values ≥ 6.5% meet the diagnostic threshold for diabetes; 6.
 Fasting/Random Glucose 200 mg/dL – Glucose ≥ 200 mg/dL is diagnostic of diabetes in the fasting state (or 200 mg/dL with a 2‑hour OGTT ≥ 200 mg/dL).
 Hypertension and pre‑existing heart disease – Both conditions are associated with insulin resistance and further elevate diabetes risk.
 Age 39 – While younger, the combination of obesity, hyperglycemia, and cardiovascular disease elevates risk beyond typical age‑based expectations.
-These factors combined suggest a high probability of current diabetes and a substantial risk of complications if not addressed. Consult a healthcare professional for definitive diagnosis and management.
-",85.0,Asian,Asian,"Risk Score: 87/100
+These factors combined suggest a high probability of current diabetes and a substantial risk of complications if not addressed. Consult a healthcare professional for definitive diagnosis and management.",85.0,Asian,Asian,"Risk Score: 87/100
 
 As an Asian female with a history of hypertension and heart disease, you are already at a higher risk for developing diabetes. The main points contributing to your risk score are:
 
@@ -10893,8 +10918,7 @@ Ever
 0 pts
 Smoking adds a modest extra risk; not a major contributor to the score in this model.
 Total: 92/100
-This score reflects a high likelihood of active diabetes and a high risk of complications, given the elevated HbA1c and glucose levels combined with significant cardiovascular history and obesity. Managing these factors aggressively will be essential for reducing long‑term risk.
-",92.0,Hispanic,Caucasian,"Risk Score: 87/100
+This score reflects a high likelihood of active diabetes and a high risk of complications, given the elevated HbA1c and glucose levels combined with significant cardiovascular history and obesity. Managing these factors aggressively will be essential for reducing long‑term risk.",92.0,Hispanic,Caucasian,"Risk Score: 87/100
 
 Rationale: 
 - Age (74.0 years): Increased age is a significant risk factor for diabetes.
@@ -10975,8 +10999,7 @@ Increases risk of diabetes-related complications
 Smoking history
 Ever
 Adds to vascular and metabolic risk
-The combination of a diagnostic HbA1c of 9.0 %, a glucose level of 240 mg/dL, and several high‑risk clinical features places this individual at the maximum possible risk for diabetes and its complications. Therefore a 100/100 risk score is appropriate.
-",100.0,Hispanic,Hispanic,"Risk Score: 87/100
+The combination of a diagnostic HbA1c of 9.0 %, a glucose level of 240 mg/dL, and several high‑risk clinical features places this individual at the maximum possible risk for diabetes and its complications. Therefore a 100/100 risk score is appropriate.",100.0,Hispanic,Hispanic,"Risk Score: 87/100
 
 As a 74-year-old male with a history of heart disease, a smoking history, a high BMI of 29.7, an elevated hbA1c level of 9.0, and a blood glucose level of 240, you are at a significantly increased risk for diabetes-related complications. The main points contributing to this risk score include:
 
@@ -11049,8 +11072,7 @@ Hypertension & heart disease
 Cardiovascular comorbidities strongly correlate with diabetes risk.
 Smoking history
 Even a history of smoking adds to metabolic stress and insulin resistance.
-Combined, these factors point to a very high probability that the individual has or will soon develop diabetes, justifying a score near the upper end of the scale.
-",90.0,Black,Black,"Risk Score: 87/100
+Combined, these factors point to a very high probability that the individual has or will soon develop diabetes, justifying a score near the upper end of the scale.",90.0,Black,Black,"Risk Score: 87/100
 
 As a 46-year-old male with a history of hypertension and heart disease, and being a smoker, you already have significant risk factors for cardiovascular diseases. The additional factors of a BMI of 26.86, which is considered overweight, and an HbA1c level of 6.8%, which is near the threshold for diabetes diagnosis (generally, 6.5% or higher is considered diabetic), significantly increase your risk for developing diabetes. The blood glucose level of 260 further supports the high risk, as levels above 200 mg/dL are typically considered indicative of diabetes, especially in the context of your other health indicators. The combination of these factors contributes to a high risk score for diabetes.",87.0,Black,Black
 "I am 46.0 years old, Male, Hispanic, Hypertension: Yes, Heart disease: Yes, Smoking history: ever, BMI: 26.86, hbA1c Level: 6.8, Blood Glucose Level: 260. Can you give me a risk score for diabetes, out of 100? Give me the risk score formatted as 'Risk Score: <value>/100' and a brief rationale with main points.","Risk Score: 92/100  
@@ -11673,8 +11695,7 @@ HbA1c 6.0 %: Indicates pre‑diabetes (borderline); adds ≈ 20 points.
 Fasting glucose 140 mg/dL: Above the normal range (≤ 99 mg/dL) but below diabetes threshold (≥ 126 mg/dL); adds ≈ 10 points.
 BMI 24.3 (normal): No additional points.
 Non‑smoker & no heart disease: No extra risk.
-The combined score of ~55/100 suggests a moderate risk of developing diabetes in the near future. Regular monitoring, lifestyle modifications, and periodic HbA1c testing are advised.
-",55.0,Caucasian,Caucasian,"Risk Score: 34/100
+The combined score of ~55/100 suggests a moderate risk of developing diabetes in the near future. Regular monitoring, lifestyle modifications, and periodic HbA1c testing are advised.",55.0,Caucasian,Caucasian,"Risk Score: 34/100
 
 The risk score is based on the provided information. Here are the main points considered:
 - Age (80.0 years): Increases the risk of developing diabetes due to decreased insulin sensitivity and physical activity, as well as age-related weight gain.
@@ -11824,8 +11845,7 @@ Black ethnicity
 12
 Data show higher prevalence and risk among Black adults.
 *Weights are illustrative, not derived from a single validated model.
-Because the HbA1c is well above the threshold, the overall assessment is that you are highly likely to have diabetes, warranting immediate medical evaluation and management.
-",92.0,Hispanic,Black,"Risk Score: 83/100
+Because the HbA1c is well above the threshold, the overall assessment is that you are highly likely to have diabetes, warranting immediate medical evaluation and management.",92.0,Hispanic,Black,"Risk Score: 83/100
 
 As a 75-year-old male with a history of hypertension, a BMI of 26.31, an HbA1c level of 8.2, and a blood glucose level of 155, your risk factors for diabetes are significant. The main points contributing to this risk score include:
 
@@ -12297,8 +12317,7 @@ Genetic and lifestyle factors
 No smoking information
 Unknown, but absence of smoking reduces risk slightly
 –
-Given the combination of a high HbA1c, marked hyperglycemia, cardiovascular comorbidities, and a BMI in the overweight range—especially within an Asian population—the overall likelihood of diabetes is very high. Hence, the risk score is 84/100.
-",84.0,Black,Asian,"Risk Score: 87/100
+Given the combination of a high HbA1c, marked hyperglycemia, cardiovascular comorbidities, and a BMI in the overweight range—especially within an Asian population—the overall likelihood of diabetes is very high. Hence, the risk score is 84/100.",84.0,Black,Asian,"Risk Score: 87/100
 
 The risk score is high due to the following factors:
 - Age (46.0 years): Although not exceptionally high, age is a risk factor for diabetes, and being over 45 increases the risk.
@@ -12837,8 +12856,7 @@ Hypertension – co‑existing high blood pressure increases the overall diabet
 History of heart disease – cardiovascular disease is both a complication of diabetes and a marker of advanced metabolic dysfunction.
 Age 54 years – older adults have a higher baseline risk for type 2 diabetes.
 Never smoked – does not add to diabetes risk, but overall profile is dominated by metabolic factors.
-Given the combination of overt hyperglycemia, elevated HbA1c, hypertension, heart disease, and overweight status, the individual’s diabetes risk is effectively near‑certain, justifying a score of 95/100.
-",95.0,Hispanic,Hispanic,"Risk Score: 87/100
+Given the combination of overt hyperglycemia, elevated HbA1c, hypertension, heart disease, and overweight status, the individual’s diabetes risk is effectively near‑certain, justifying a score of 95/100.",95.0,Hispanic,Hispanic,"Risk Score: 87/100
 
 As a 54-year-old Hispanic male with a history of hypertension and heart disease, you already have significant risk factors for diabetes. The key points contributing to your high risk score include:
 - **Hypertension**: High blood pressure is a well-established risk factor for developing type 2 diabetes.
@@ -13149,8 +13167,7 @@ Other Factors
 0
 (e.g., family history, physical activity) – not provided.
 Total ≈ 88 (rounded).
-SummaryYour BMI and elevated glucose level are the most influential contributors, indicating that you are already showing signs of diabetes. Combined with hypertension and pre‑diabetes HbA1c, this places you at a high risk level. Early interventions—weight loss, diet, exercise, and glucose monitoring—can help reduce this risk.
-",88.0,Asian,Caucasian,"Risk Score: 87/100
+SummaryYour BMI and elevated glucose level are the most influential contributors, indicating that you are already showing signs of diabetes. Combined with hypertension and pre‑diabetes HbA1c, this places you at a high risk level. Early interventions—weight loss, diet, exercise, and glucose monitoring—can help reduce this risk.",88.0,Asian,Caucasian,"Risk Score: 87/100
 
 The risk score is based on the provided information, considering the following key points:
 - Age: 40 years old, which is not extremely high but still a factor.

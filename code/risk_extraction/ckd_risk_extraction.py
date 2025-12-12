@@ -1,7 +1,11 @@
 import pandas as pd
 import re 
 import numpy as np
-# df = pd.read_csv('brief_ckd_diagnoses.csv')
+
+"""
+Risk score extraction for responses to 200 ckd records (swapped out file names as necessary)
+"""
+
 df = pd.read_csv('../newer_results/responses/llama_3.3_200_ckd_diagnoses.csv')
 pattern = re.compile(r"\**\s*Risk Score:\s*\**\s*(\d+)\s*/", re.IGNORECASE)
 
@@ -18,6 +22,7 @@ for index, row in df.iterrows():
         risk = int(m.group(1)) if m else None
 
     rows.append({
+        "Vignette": row['vignette'][:200],
         "Risk Score": row['risk_score'],
         "Prompted Ethnicity": row["prompted_ethnicity"],
         "Original Ethnicity": row["original_ethnicity"]

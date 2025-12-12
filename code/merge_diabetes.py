@@ -1,5 +1,9 @@
 import pandas as pd
 
+"""
+Merging results for Llama and GPT CKD audits
+"""
+
 # Paths
 right_path  = "/Users/kaylaxu/Downloads/clinicalBiasAudit/code/newer_results/responses/llama_3.3_200_diabetes_diagnoses.csv"
 left_path = "/Users/kaylaxu/Downloads/clinicalBiasAudit/code/newer_results/responses/fixed_diabetes_responses.csv"

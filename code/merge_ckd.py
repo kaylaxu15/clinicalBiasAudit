@@ -1,8 +1,13 @@
 import pandas as pd
 
+
+"""
+Merging results for Llama and GPT CKD audits
+"""
+
 # Paths
-right_path  = "raw/llama_150_ckd_diagnoses.csv"
-left_path = "/Users/kaylaxu/Downloads/clinicalBiasAudit/code/newer_results/responses/fixed_ckd_responses.csv"
+left_path  = "/Users/kaylaxu/Downloads/clinicalBiasAudit/code/newer_results/responses/llama_3.3_200_ckd_diagnoses.csv"
+right_path = "/Users/kaylaxu/Downloads/clinicalBiasAudit/code/newer_results/responses/gpt_fixed_ckd_responses.csv"
 
 # Load
 df_left = pd.read_csv(left_path)

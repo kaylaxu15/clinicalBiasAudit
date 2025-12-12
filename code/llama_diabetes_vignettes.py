@@ -3,6 +3,11 @@ import json
 import pandas as pd
 import csv
 
+"""
+Running 200 diabetes records for Llama 3.3 Instruct model
+
+"""
+
 api_key = "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"
 # Load CSV
 df = pd.read_csv("../dataset/diabetes_dataset_balanced.csv")
@@ -57,7 +62,7 @@ with open(output_file, "w", newline="", encoding="utf8") as f:
     # Loop through patients + ethnicities
     records = 0
     limit = 300
-    for i, r in enumerate(df.to_dict(orient="records")[7:8]):
+    for i, r in enumerate(df.to_dict(orient="records")):
         original_eth = next((label for col, label in eth_map.items() if r[col] == 1), None)
 
         if original_eth is None:

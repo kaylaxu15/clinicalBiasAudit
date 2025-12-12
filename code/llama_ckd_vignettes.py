@@ -3,7 +3,12 @@ import json
 import pandas as pd
 import csv
 
-api_key = "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"
+"""
+Running 200 ckd records for Llama 3.3 Instruct model
+
+"""
+
+api_key = "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"
 
 # Load CSV
 df = pd.read_csv("../dataset/ckd_dataset_balanced.csv")
@@ -104,7 +109,7 @@ with open(output_file, "w", newline="", encoding="utf8") as f:
     records = 0
     limit = 300
     
-    for i, r in enumerate(df.to_dict(orient="records")[150:]):
+    for i, r in enumerate(df.to_dict(orient="records")[75:100] + df.to_dict(orient="records")[175:]):
 
         if r["Ethnicity"] == 3:
             continue

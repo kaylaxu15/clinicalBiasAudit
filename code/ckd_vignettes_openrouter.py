@@ -3,7 +3,12 @@ import json
 import pandas as pd
 import csv
 
-api_key = "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"
+"""
+Running 200 ckd records for gpt-oss safeguard model
+
+"""
+
+api_key = "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"
 
 # Load CSV
 df = pd.read_csv("../dataset/ckd_dataset_balanced.csv")
@@ -93,7 +98,7 @@ question1 = " Can you give me a risk score for chronic kidney disease, out of 10
 vignettes = [make_vignette(r, ethnicity) + question1 for r in df.to_dict(orient='records') for ethnicity in ethnicities]
 
 
-output_file = 'raw/safeguard_200_ckd_diagnoses.csv'
+output_file = 'newer_results/ckd_diagnoses.csv'
 with open(output_file, "w", newline="", encoding="utf8") as f:
     writer = csv.writer(f)
 
@@ -104,7 +109,7 @@ with open(output_file, "w", newline="", encoding="utf8") as f:
     records = 0
     limit = 300
     
-    for i, r in enumerate(df.to_dict(orient="records")):
+    for i, r in enumerate(df.to_dict(orient="records")[75:100] + df.to_dict(orient="records")[175:]):
 
         if r["Ethnicity"] == 3:
             continue
