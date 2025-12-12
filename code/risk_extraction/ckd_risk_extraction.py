@@ -2,7 +2,7 @@ import pandas as pd
 import re 
 import numpy as np
 # df = pd.read_csv('brief_ckd_diagnoses.csv')
-df = pd.read_csv('../newer_results/fixed_ckd_responses.csv')
+df = pd.read_csv('../newer_results/responses/llama_3.3_150_ckd_diagnoses.csv')
 pattern = re.compile(r"\**\s*Risk Score:\s*\**\s*(\d+)\s*/", re.IGNORECASE)
 
 rows = []
@@ -24,7 +24,7 @@ for index, row in df.iterrows():
     })
 
 output = pd.DataFrame(rows)
-output.to_csv("../newer_results/fixed_150_CKD_extracted_risk_scores.csv")
+output.to_csv("../newer_results/extracted_risk_scores/llama_ckd_extracted_risk_scores.csv")
 
 print("Count", count)
 
