@@ -2,7 +2,7 @@ import pandas as pd
 import re 
 import numpy as np
 # df = pd.read_csv('brief_ckd_diagnoses.csv')
-df = pd.read_csv('../newer_results/responses/llama_3.3_150_ckd_diagnoses.csv')
+df = pd.read_csv('../newer_results/responses/llama_3.3_200_ckd_diagnoses.csv')
 pattern = re.compile(r"\**\s*Risk Score:\s*\**\s*(\d+)\s*/", re.IGNORECASE)
 
 rows = []
