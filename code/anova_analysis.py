@@ -7,13 +7,13 @@ from scipy import stats
 from statsmodels.formula.api import ols
 import statsmodels.api as sm
 
-# ----------------------------
-# Prepare the data
-# ----------------------------
-condition = "diabetes"
+"""
+ANOVA and posthoc Tukey tests
+"""
+condition = "ckd"
 ethnicity_map = {0: "Caucasian", 1: "African American", 2: "Asian", 3: "Other"}
 
-model = "llama" # llama or gpt
+model = "gpt" # llama or gpt
 
 results_df = pd.read_csv(f"final_merged/merged_{condition}_results.csv")
 dataset_df = pd.read_csv(f"newer_results/dataset/{condition}_dataset.csv")
@@ -84,7 +84,9 @@ sns.boxplot(
     palette={0: "skyblue", 1: "orange"},
     hue_order=[0, 1]
 )
-plt.title(f"Risk Scores by Prompted Race and True {condition.capitalize()} Status for Llama3.3")
+
+model_name = "GPT_OSS"
+plt.title(f"Risk Scores by Prompted Race and True {condition.capitalize()} Status for {model_name}")
 plt.xlabel("Prompted Race")
 plt.ylabel("Risk Score")
 

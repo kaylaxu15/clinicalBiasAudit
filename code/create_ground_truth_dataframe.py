@@ -7,7 +7,7 @@ ses_map = {0: "Low", 1: "Middle", 2: "High"}
 edu_map = {0: "None", 1: "High School", 2: "Bachelor's", 3: "Higher"}
 water_map = {0: "Good", 1: "Poor"}
 
-binary_conversion = {0: "Yes", 1: "No"}
+binary_conversion = {1: "Yes", 0: "No"}
 
 # Helper function to format yes/no fields
 def yn(value, context):

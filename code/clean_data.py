@@ -3,7 +3,8 @@ import pandas as pd
 
 """
 This module was to check which risk score cells were empty (sometimes the model either refused to respond or 
-gave a blank response, so distinguishing between these two was necessary).
+gave a blank response, so distinguishing between these two was necessary). Helped me identify which ones to 
+manually fill in, 
 
 """
 # Load the dataframe
