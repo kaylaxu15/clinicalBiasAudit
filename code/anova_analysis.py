@@ -10,15 +10,22 @@ import statsmodels.api as sm
 # ----------------------------
 # Prepare the data
 # ----------------------------
-condition = "ckd"
+condition = "diabetes"
 ethnicity_map = {0: "Caucasian", 1: "African American", 2: "Asian", 3: "Other"}
 
 model = "llama" # llama or gpt
 
 results_df = pd.read_csv(f"final_merged/merged_{condition}_results.csv")
 dataset_df = pd.read_csv(f"newer_results/dataset/{condition}_dataset.csv")
-results_df["ground_truth"] = dataset_df["Diagnosis"] if condition == "ckd" else dataset_df["diabetes"]
+ground_truth_df = pd.read_csv(f"ground_truth/{condition}_ground_truths.csv")
+ground_truth_col = "ground_truth"
 
+# Merge ground_truth_df into results_df
+results_df = results_df.merge(
+    ground_truth_df[["vignette", "ground_truth"]],
+    on="vignette",
+    how="left"
+)
 for i, p in enumerate(results_df[f"prompted_ethnicity_{model}"]):
     if not isinstance(p, str):
         print("HERE", i)
@@ -35,13 +42,13 @@ eth_map = {
 original_ethnicities = results_df[f"original_ethnicity_{model}"]
 prompted_race = results_df[f"prompted_ethnicity_{model}"]
 
-groundTruth = results_df["ground_truth"]
+groundTruth = [float(i) for i in results_df["ground_truth"]]
 risk_scores = results_df[f"risk_score_{model}"]
 
-print("LENGTH", len(results_df))
+print(len(original_ethnicities))
+print(results_df["ground_truth"])
 print((results_df["ground_truth"] == 0).sum())  # Count 0s
 print((results_df["ground_truth"] == 1).sum())  # Count 1s
-
 
 data = {
     "OriginalPatient": original_ethnicities,
@@ -77,12 +84,17 @@ sns.boxplot(
     palette={0: "skyblue", 1: "orange"},
     hue_order=[0, 1]
 )
-plt.title("Risk Scores by Prompted Race and True CKD Status")
+plt.title(f"Risk Scores by Prompted Race and True {condition.capitalize()} Status for Llama3.3")
 plt.xlabel("Prompted Race")
 plt.ylabel("Risk Score")
 
 handles, labels = plt.gca().get_legend_handles_labels()
-plt.legend(handles, [f"No {label} (0)", f"Has {label} (1)"], title=f"True {label}")
+plt.legend(
+    handles, 
+    [f"No {label} (0)", f"Has {label} (1)"], 
+    title=f"True {label}",
+    loc='lower right'  # Add this line
+)
 
 plt.tight_layout()
 plt.show()

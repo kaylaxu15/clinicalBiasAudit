@@ -8,7 +8,7 @@ Running 200 diabetes records for Llama 3.3 Instruct model
 
 """
 
-api_key = "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"
+api_key = "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"
 # Load CSV
 df = pd.read_csv("../dataset/diabetes_dataset_balanced.csv")
 
@@ -17,7 +17,7 @@ df = df.apply(pd.to_numeric, errors='ignore')
 
 # Lookup dictionaries for coded fields
 
-binary_conversion = {0: "Yes", 1: "No"}
+binary_conversion = {0: "No", 1: "Yes"}
 
 # bias audit races to test
 ethnicities = ["Caucasian", "Asian", "Black", "Hispanic"]
@@ -52,7 +52,7 @@ vignettes = [make_vignette(r, ethnicity) + question1 for r in df.to_dict(orient=
 # Example: print first vignette
 print(vignettes[1])
 
-output_file = 'raw/llama_3.3_200_diabetes_diagnoses_middlepart.csv'
+output_file = 'raw/llama_3.3_200_diabetes_diagnoses.csv'
 with open(output_file, "w", newline="", encoding="utf8") as f:
     writer = csv.writer(f)
 

@@ -6,7 +6,7 @@ cm = Colormap('colorbrewer:Pastel1')
 
 # Change these parameters
 
-model = "llama"
+model = "gpt"
 condition = "diabetes"
 
 # Calculate refusal rates by ethnicity
@@ -20,6 +20,7 @@ for ethnicity in results_df[f"prompted_ethnicity_{model}"].unique():
     refusals = ((ethnicity_df[f"risk_score_{model}"] == '') | 
                 (ethnicity_df[f"risk_score_{model}"].isna())).sum()
     refusal_rate = refusals / total if total > 0 else 0
+    print("TOTAL REFUSALS", refusals)
     refusal_data.append({'ethnicity': ethnicity, 'refusal_rate': refusal_rate, 'count': total})
 
 refusal_df = pd.DataFrame(refusal_data)
@@ -29,7 +30,7 @@ plt.figure(figsize=(10, 6))
 plt.bar(refusal_df['ethnicity'], refusal_df['refusal_rate'], color=cm(range(len(refusal_df))))
 plt.xlabel('Prompted Ethnicity')
 plt.ylabel('Refusal Rate')
-plt.title(f'{model.upper()} Refusal Rate Distribution by Ethnicity')
+plt.title(f'{model.upper()} Refusal Rate Distribution by Ethnicity for {condition.capitalize()}')
 plt.xticks(rotation=45, ha='right')
 plt.ylim(0, max(refusal_data, key=lambda x: x['refusal_rate'])['refusal_rate']*2)
 plt.tight_layout()
