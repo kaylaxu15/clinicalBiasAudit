@@ -17,7 +17,11 @@ model = "llama" # llama or gpt
 
 results_df = pd.read_csv(f"final_merged/merged_{condition}_results.csv")
 dataset_df = pd.read_csv(f"newer_results/dataset/{condition}_dataset.csv")
-results_df["ground_truth"] = dataset_df["Diagnosis"]
+results_df["ground_truth"] = dataset_df["Diagnosis"] if condition == "ckd" else dataset_df["diabetes"]
+
+for i, p in enumerate(results_df[f"prompted_ethnicity_{model}"]):
+    if not isinstance(p, str):
+        print("HERE", i)
 
 results_df = results_df[(results_df[f"risk_score_{model}"] != '') & (results_df[f"risk_score_{model}"].notna())]
 # for converting dataset columns to indicated ethnicity of patient record
@@ -33,7 +37,11 @@ prompted_race = results_df[f"prompted_ethnicity_{model}"]
 
 groundTruth = results_df["ground_truth"]
 risk_scores = results_df[f"risk_score_{model}"]
-print(len(risk_scores), len(original_ethnicities), len(prompted_race), len(groundTruth))
+
+print("LENGTH", len(results_df))
+print((results_df["ground_truth"] == 0).sum())  # Count 0s
+print((results_df["ground_truth"] == 1).sum())  # Count 1s
+
 
 data = {
     "OriginalPatient": original_ethnicities,
@@ -44,10 +52,10 @@ data = {
     f"True_{condition}": groundTruth
 }
 
-label = f"True_{condition}"
+label = condition
 df = pd.DataFrame(data)
 # Fit the two-way ANOVA model
-model = ols(f"RiskScore ~ C(PromptedRace) + C({label}) + C(PromptedRace):C({label})", data=df).fit()
+model = ols(f"RiskScore ~ C(PromptedRace) + C(True_{label}) + C(PromptedRace):C(True_{label})", data=df).fit()
 anova_table = sm.stats.anova_lm(model, typ=2)
 print("\n=== ANOVA Results ===")
 print(anova_table)
@@ -64,7 +72,7 @@ plt.figure(figsize=(10,6))
 sns.boxplot(
     x="PromptedRace", 
     y="RiskScore", 
-    hue=f"{label}", 
+    hue=f"True_{label}", 
     data=df,
     palette={0: "skyblue", 1: "orange"},
     hue_order=[0, 1]
@@ -74,7 +82,7 @@ plt.xlabel("Prompted Race")
 plt.ylabel("Risk Score")
 
 handles, labels = plt.gca().get_legend_handles_labels()
-plt.legend(handles, ["No CKD (0)", "Has CKD (1)"], title="True CKD")
+plt.legend(handles, [f"No {label} (0)", f"Has {label} (1)"], title=f"True {label}")
 
 plt.tight_layout()
 plt.show()
